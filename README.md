@@ -22,7 +22,8 @@ Oder das wir anhand von besonderen ausschlägen, auf real Life ereignisse schli�
 nun ziehen wir den ersten String(Name des Politiker), von den nächsten X Stings ab. Sodas wir nur noch eine liste von den Extaions String haben
 [privat, bundestag, biografie, twitter, das geständnis des mönchs, facebook, .....]
 
-nun erechnen wir einen Duchschnitlichen Sentiment socere für diesen Tag. UNd speicher diesen mit den dem zugehörigen Tag in eien Data Frame für diesen Politker. 
+nun erechnen wir einen Duchschnitlichen Sentiment socere für diesen Tag. https://github.com/sloria/TextBlob
+UNd speicher diesen mit den dem zugehörigen Tag in eien Data Frame für diesen Politker. 
 
 
 
