@@ -1,6 +1,8 @@
 # NLP_SS_2021
 Vorlesung NLP im Sommersemester 2021
 
+Kanban Board https://github.com/users/Danielsoeller/projects/7?add_cards_query=is%3Aopen
+
 # Projekt Plan
 
 Ziel: WIr wollen untersuchen, wie sich die öffentliche Meinung über Politiker im Laufe der Zeit verändert. 
