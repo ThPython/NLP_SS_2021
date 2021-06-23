@@ -1,16 +1,16 @@
 # NLP_SS_2021
 Vorlesung NLP im Sommersemester 2021
 
-# Porjekt Plan
+# Projekt Plan
 
-Ziel: WIr wollen unterschuchen, wie sich der die Öffentliche Meinung über Politiker im Laufe der Zeit verändert. 
-Dafür wollen wir für jeden Politkier,für jeden Tag einen Druchschnitlichen Sentiment Socere erechen. Denn wir dan wieder rum auf die Zeitachse ploten.
-Wir können uns vorstelen das wir Sesionale Unterschiede finde, das also Politiker im Sommer beliebter sind, als im WInter.
-Oder das wir anhand von besonderen ausschlägen, auf real Life ereignisse schlißen können.
+Ziel: WIr wollen untersuchen, wie sich die öffentliche Meinung über Politiker im Laufe der Zeit verändert. 
+Dafür wollen wir für jeden Politkier und für jeden Tag einen durchschnitlichen Sentiment Score errechnen, welchen wir dann auf einer Zeitachse plotten.
+Wir können uns vorstellen, dass wir Sesionale?? Unterschiede finden. Dass Politiker im Sommer beliebter sind als im WInter.
+Oder, dass wir anhand von besonderen Ausschlägen bzw. Veränderungen, auf Real Life Ereignisse schließen können.
 
 ## Vorgehen: 
 
-**Daten extrahieren:** Aus den von unseren Dozenten geben daten Satz extrahieren wir die quary extentions. Dies machen wie mit einer Einfachen Regex Expration: **"(.+?)"**
+**Daten extrahieren:** Aus den von unseren Dozenten gegebenem Datensatz extrahieren wir die query extentions oder Expansions ?. Dies machen wie mit einer einfachen Regex Expression: **"(.+?)"**
 
  '["Jan van Aken",["jan van aken privat","jan van aken bundestag","jan van aken biografie",
  "jan van aken twitter","jan van aken das geständnis des mönchs","jan van aken facebook",
@@ -19,14 +19,10 @@ Oder das wir anhand von besonderen ausschlägen, auf real Life ereignisse schli�
  "jan van aken g20","jan van aken kurden","jan van aken praktikum","jan van aken pkk fahne",
  "jan van aken frau","jan van aken autor"]'
  
-nun ziehen wir den ersten String(Name des Politiker), von den nächsten X Stings ab. Sodas wir nur noch eine liste von den Extaions String haben
+Nun ziehen wir den ersten String (Name des Politikers), von den nächsten X Strings ab. Sodass wir nur noch eine Liste von den Extaions??? Strings haben
 [privat, bundestag, biografie, twitter, das geständnis des mönchs, facebook, .....]
 
-nun erechnen wir einen Duchschnitlichen Sentiment socere für diesen Tag. https://github.com/sloria/TextBlob
-UNd speicher diesen mit den dem zugehörigen Tag in eien Data Frame für diesen Politker. 
+Nun erechnen wir einen durchschnittlichen Sentiment score für diesen Tag. https://github.com/sloria/TextBlob
+und speichern diesen mit dem zugehörigen Tag in einen Data Frame für diesen Politker. 
 
-
-
-**Daten Untersuchen**, nun konnen wir die Daten untersuchen, so könnenneben visualtionen und Duchschnite für mehre Politiker einer Partei oder Geschlecht, 
-auch ausreißer analysen durch gefühert werden.
  
