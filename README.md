@@ -2,6 +2,7 @@
 Vorlesung NLP im Sommersemester 2021
 
 Kanban Board https://github.com/users/Danielsoeller/projects/7?add_cards_query=is%3Aopen
+
 Presi https://docs.google.com/presentation/d/113Yi6Itv_kxDrfnNHw37NRIL2TiLGcpKjNdyfj8ynW0/edit?usp=sharing
 
 # Projekt Plan
