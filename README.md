@@ -5,7 +5,7 @@ Kanban Board https://github.com/users/Danielsoeller/projects/7?add_cards_query=i
 
 Präsi https://docs.google.com/presentation/d/113Yi6Itv_kxDrfnNHw37NRIL2TiLGcpKjNdyfj8ynW0/edit?usp=sharing
 
-# Projekt Plan
+# Projektplan
 
 Ziel: WIr wollen untersuchen, wie sich die öffentliche Meinung über Politiker im Laufe der Zeit verändert. 
 Dafür wollen wir für jeden Politkier und für jeden Tag einen durchschnitlichen Sentiment Score errechnen, welchen wir dann auf einer Zeitachse plotten.
