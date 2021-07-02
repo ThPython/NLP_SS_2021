@@ -30,7 +30,8 @@ Nun erechnen wir einen durchschnittlichen Sentiment score für diesen Tag. https
 und speichern diesen mit dem zugehörigen Tag in einen Data Frame für diesen Politker. 
 
 intersannte Libs:
-Genderguesser
+Genderguesser die vor 4
+gernderize.io grupe 4
 
 intersannter daten satz ACLED (Armend conflict and event data)
  
