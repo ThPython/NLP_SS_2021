@@ -1,0 +1,234 @@
+
+Line1:
+ id,queryterm,date,client,lang,url,raw_data
+
+Line2:
+ 1,Jan van Aken,2017-02-13 17:13:45,chrome,de,http://clients1.google.de/complete/search,"[""Jan van Aken"",[""jan van aken privat"",""http://www.jan-van-aken.de/"",""jan van aken biografie"",""jan van aken bundestag"",""jan van aken twitter"",""jan van aken das geständnis des mönchs"",""jan van aken facebook"",""jan van aken israel"",""jan van aken kontakt"",""jan van aken türkei"",""jan van aken mitarbeiter"",""jan van aken maler"",""jan van aken g20"",""jan van aken linke"",""jan van aken kurden"",""jan van aken sahra wagenknecht"",""jan van aken mdb"",""jan van aken praktikum"",""jan van aken pkk fahne"",""jan van aken frau""],["""",""STARTSEITE - MdB Jan van Aken"","""","""","""","""","""","""","""","""","""","""","""","""","""","""","""","""","""",""""],[],{""google:clientdata"":{""bpc"":false,""tlw"":false},""google:suggestrelevance"":[602,601,600,566,565,564,563,562,561,560,559,558,557,556,555,554,553,552,551,550],""google:suggesttype"":[""QUERY"",""NAVIGATION"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY""],""google:verbatimrelevance"":1300}]"
+
+DataFrame:
+                                       Excerpt
+0                                           1
+1                                Jan van Aken
+2                         2017-02-13 17:13:45
+3                                      chrome
+4                                          de
+5   http://clients1.google.de/complete/search
+6                                Jan van Aken
+7                                      privat
+8                                   biografie
+9                                   bundestag
+10                                    twitter
+11                das geständnis des mönchs
+12                                   facebook
+13                                     israel
+14                                    kontakt
+15                                    türkei
+16                                mitarbeiter
+17                                      maler
+18                                        g20
+19                                      linke
+20                                     kurden
+21                          sahra wagenknecht
+22                                        mdb
+23                                  praktikum
+24                                  pkk fahne
+25                                       frau 
+
+----------------------------------------------------------------------------------------------------
+Line3:
+ 2,Jan van Aken,2017-02-13 17:13:46,chrome,de,http://suggestqueries.google.com/complete/search,"[""Jan van Aken"",[""jan van aken privat"",""jan van aken bundestag"",""jan van aken biografie"",""jan van aken twitter"",""jan van aken das geständnis des mönchs"",""jan van aken facebook"",""jan van aken türkei"",""jan van aken israel"",""jan van aken kontakt"",""jan van aken mdb"",""jan van aken maler"",""jan van aken linke"",""jan van aken sahra wagenknecht"",""jan van aken mitarbeiter"",""jan van aken g20"",""jan van aken kurden"",""jan van aken praktikum"",""jan van aken pkk fahne"",""jan van aken frau"",""jan van aken autor""],["""","""","""","""","""","""","""","""","""","""","""","""","""","""","""","""","""","""","""",""""],[],{""google:clientdata"":{""bpc"":false,""tlw"":false},""google:suggestrelevance"":[601,600,567,566,565,564,563,562,561,560,559,558,557,556,555,554,553,552,551,550],""google:suggesttype"":[""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY""],""google:verbatimrelevance"":1300}]"
+
+DataFrame:
+                                              Excerpt
+0                                                  2
+1                                       Jan van Aken
+2                                2017-02-13 17:13:46
+3                                             chrome
+4                                                 de
+5   http://suggestqueries.google.com/complete/search
+6                                       Jan van Aken
+7                                             privat
+8                                          bundestag
+9                                          biografie
+10                                           twitter
+11                       das geständnis des mönchs
+12                                          facebook
+13                                           türkei
+14                                            israel
+15                                           kontakt
+16                                               mdb
+17                                             maler
+18                                             linke
+19                                 sahra wagenknecht
+20                                       mitarbeiter
+21                                               g20
+22                                            kurden
+23                                         praktikum
+24                                         pkk fahne
+25                                              frau
+26                                             autor 
+
+----------------------------------------------------------------------------------------------------
+Line4:
+ 3,Jan van Aken,2017-02-13 17:13:46,firefox,de,http://clients1.google.de/complete/search,"[""Jan van Aken"",[""jan van aken"",""jan van aken privat"",""jan van aken biografie"",""jan van aken bundestag"",""jan van aken twitter"",""jan van aken das geständnis des mönchs"",""jan van aken facebook"",""jan van aken israel"",""jan van aken kontakt"",""jan van aken türkei""]]"
+
+DataFrame:
+                                       Excerpt
+0                                           3
+1                                Jan van Aken
+2                         2017-02-13 17:13:46
+3                                     firefox
+4                                          de
+5   http://clients1.google.de/complete/search
+6                                Jan van Aken
+7                                      privat
+8                                   biografie
+9                                   bundestag
+10                                    twitter
+11                das geständnis des mönchs
+12                                   facebook
+13                                     israel
+14                                    kontakt
+15                                    türkei 
+
+----------------------------------------------------------------------------------------------------
+Line5:
+ 4,Jan van Aken,2017-02-13 17:13:46,firefox,de,http://suggestqueries.google.com/complete/search,"[""Jan van Aken"",[""jan van aken"",""jan van aken privat"",""jan van aken bundestag"",""jan van aken biografie"",""jan van aken twitter"",""jan van aken das geständnis des mönchs"",""jan van aken facebook"",""jan van aken israel"",""jan van aken kontakt"",""jan van aken mdb""]]"
+
+DataFrame:
+                                              Excerpt
+0                                                  4
+1                                       Jan van Aken
+2                                2017-02-13 17:13:46
+3                                            firefox
+4                                                 de
+5   http://suggestqueries.google.com/complete/search
+6                                       Jan van Aken
+7                                             privat
+8                                          bundestag
+9                                          biografie
+10                                           twitter
+11                       das geständnis des mönchs
+12                                          facebook
+13                                            israel
+14                                           kontakt
+15                                               mdb 
+
+----------------------------------------------------------------------------------------------------
+Line6:
+ 5,Jan van Aken,2017-02-13 17:13:46,serp,de,http://clients1.google.de/complete/search,"[""Jan van Aken"",[""jan van aken"",""jan van aken privat"",""jan van aken biografie"",""jan van aken bundestag"",""jan van aken twitter"",""jan van aken das geständnis des mönchs"",""jan van aken facebook"",""jan van aken kontakt"",""jan van aken mitarbeiter"",""jan van aken israel""],[],{""google:suggesttype"":[""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY""]}]"
+
+DataFrame:
+                                       Excerpt
+0                                           5
+1                                Jan van Aken
+2                         2017-02-13 17:13:46
+3                                        serp
+4                                          de
+5   http://clients1.google.de/complete/search
+6                                Jan van Aken
+7                                      privat
+8                                   biografie
+9                                   bundestag
+10                                    twitter
+11                das geständnis des mönchs
+12                                   facebook
+13                                    kontakt
+14                                mitarbeiter
+15                                     israel 
+
+----------------------------------------------------------------------------------------------------
+Line7:
+ 6,Jan van Aken,2017-02-13 17:13:46,serp,de,http://suggestqueries.google.com/complete/search,"[""Jan van Aken"",[""jan van aken"",""jan van aken privat"",""jan van aken bundestag"",""jan van aken biografie"",""jan van aken twitter"",""jan van aken das geständnis des mönchs"",""jan van aken facebook"",""jan van aken kontakt"",""jan van aken türkei"",""jan van aken linke""],[],{""google:suggesttype"":[""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY""]}]"
+
+DataFrame:
+                                              Excerpt
+0                                                  6
+1                                       Jan van Aken
+2                                2017-02-13 17:13:46
+3                                               serp
+4                                                 de
+5   http://suggestqueries.google.com/complete/search
+6                                       Jan van Aken
+7                                             privat
+8                                          bundestag
+9                                          biografie
+10                                           twitter
+11                       das geständnis des mönchs
+12                                          facebook
+13                                           kontakt
+14                                           türkei
+15                                             linke 
+
+----------------------------------------------------------------------------------------------------
+Line8:
+ 7,Jan van Aken,2017-02-13 17:13:46,opera,de,http://clients1.google.de/complete/search,"[""Jan van Aken"",[""jan van aken"",""jan van aken privat"",""jan van aken biografie"",""jan van aken bundestag"",""jan van aken twitter"",""jan van aken das geständnis des mönchs"",""jan van aken facebook"",""jan van aken israel"",""jan van aken kontakt"",""jan van aken türkei""]]"
+
+DataFrame:
+                                       Excerpt
+0                                           7
+1                                Jan van Aken
+2                         2017-02-13 17:13:46
+3                                       opera
+4                                          de
+5   http://clients1.google.de/complete/search
+6                                Jan van Aken
+7                                      privat
+8                                   biografie
+9                                   bundestag
+10                                    twitter
+11                das geständnis des mönchs
+12                                   facebook
+13                                     israel
+14                                    kontakt
+15                                    türkei 
+
+----------------------------------------------------------------------------------------------------
+Line9:
+ 8,Jan van Aken,2017-02-13 17:13:46,opera,de,http://suggestqueries.google.com/complete/search,"[""Jan van Aken"",[""jan van aken"",""jan van aken privat"",""jan van aken bundestag"",""jan van aken biografie"",""jan van aken twitter"",""jan van aken das geständnis des mönchs"",""jan van aken facebook"",""jan van aken türkei"",""jan van aken israel"",""jan van aken kontakt""]]"
+
+DataFrame:
+                                              Excerpt
+0                                                  8
+1                                       Jan van Aken
+2                                2017-02-13 17:13:46
+3                                              opera
+4                                                 de
+5   http://suggestqueries.google.com/complete/search
+6                                       Jan van Aken
+7                                             privat
+8                                          bundestag
+9                                          biografie
+10                                           twitter
+11                       das geständnis des mönchs
+12                                          facebook
+13                                           türkei
+14                                            israel
+15                                           kontakt 
+
+----------------------------------------------------------------------------------------------------
+Line10:
+ 9,Stephan Albani,2017-02-13 17:13:47,chrome,de,http://clients1.google.de/complete/search,"[""Stephan Albani"",[""stephan albani facebook"",""stephan albani zahnarzt"",""stephan albani hörtech"",""stephan albani hörzentrum"",""stephan albani chemnitz"",""stephan albani petersfehn"",""stephan albani deutscher bundestag"",""stephan albani twitter"",""stephan albani wiki"",""stephan albani berlin"",""dr. stephan albani"",""stephan theodor johannes albani"",""stephen center albania"",""stephan albani e-mail""],["""","""","""","""","""","""","""","""","""","""","""","""","""",""""],[],{""google:clientdata"":{""bpc"":false,""tlw"":false},""google:suggestrelevance"":[601,600,561,560,559,558,557,556,555,554,553,552,551,550],""google:suggesttype"":[""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY"",""QUERY""],""google:verbatimrelevance"":1300}]"
+
+DataFrame:
+                                       Excerpt
+0                                           9
+1                              Stephan Albani
+2                         2017-02-13 17:13:47
+3                                      chrome
+4                                          de
+5   http://clients1.google.de/complete/search
+6                              Stephan Albani
+7                                    facebook
+8                                    zahnarzt
+9                                    hörtech
+10                                hörzentrum
+11                                   chemnitz
+12                                 petersfehn
+13                        deutscher bundestag
+14                                    twitter
+15                                       wiki
+16                                     berlin
+17                                     e-mail 
+
+----
