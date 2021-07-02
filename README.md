@@ -29,4 +29,8 @@ Nun ziehen wir den ersten String (Name des Politikers), von den nächsten X Stri
 Nun erechnen wir einen durchschnittlichen Sentiment score für diesen Tag. https://github.com/sloria/TextBlob
 und speichern diesen mit dem zugehörigen Tag in einen Data Frame für diesen Politker. 
 
+intersannte Libs:
+Genderguesser
+
+intersannter daten satz ACLED (Armend conflict and event data)
  
