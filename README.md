@@ -9,7 +9,7 @@ Präsi https://docs.google.com/presentation/d/113Yi6Itv_kxDrfnNHw37NRIL2TiLGcpKj
 
 Ziel: WIr wollen untersuchen, wie sich die öffentliche Meinung über Politiker im Laufe der Zeit verändert. 
 Dafür wollen wir für jeden Politkier und für jeden Tag einen durchschnitlichen Sentiment Score errechnen, welchen wir dann auf einer Zeitachse plotten.
-Wir können uns vorstellen, dass wir Sesionale?? Unterschiede finden. Dass Politiker im Sommer beliebter sind als im WInter.
+Wir können uns vorstellen, dass wir saisonale Unterschiede finden. Dass Politiker im Sommer beliebter sind als im WInter.
 Oder, dass wir anhand von besonderen Ausschlägen bzw. Veränderungen, auf Real Life Ereignisse schließen können.
 
 ## Vorgehen: 
