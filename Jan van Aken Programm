@@ -1,0 +1,113 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# B e g i n   o f   s u g g e s t i o n   f i l e
+# id,queryterm,date,client,lang,url,raw_data
+# 1,Jan van Aken,2017-02-13 17:13:45,chrome,de,http://clients1.google.de/complete/search,
+# "[""Jan van Aken"",
+#  [""jan van aken privat"",""http://www.jan-van-aken.de/"",""jan van aken biografie"","" ...
+
+import pandas as pd
+import re
+
+# globale Variablen
+# toPrint = 1    # 0:=false, 1:=true
+head = ''      # for headlines, titles
+
+# Kopfdaten (first items of lines)
+# nurListe = 0: nur Liste retournieren, sonst nur drucken 
+def getHead(items, von, bis, nurListe=0):
+  retListe = []
+  len_items = len(items)
+  if von < 0: von = 0
+  if von >= len_items: von = len_items-1
+  if bis < von: bis = von
+  if bis > len_items: bis = len_items
+  if not nurListe:
+    print(head)
+  for i in range(von, bis):
+    if nurListe:
+      retListe.append(items[i])
+    else:
+       print(items[i])
+  return(retListe)
+  
+
+# cut out queryterm from raw_data
+# e.g.: 'jan van    aken das geständnis des mönchs' -> 'das geständnis des mönchs'
+def cutout_queryterm(where, what):
+  # print("cutout_queryterm! wo: '{}', was: '{}'".format(where, what))
+  items = what.split(" ")
+  items_count = len(items)
+  if items_count == 0:
+    return("")
+  # make group1 e.g. "(^ *?jan *? van *? aken )"
+  group1 = "(^ *?"
+  for i in range(items_count):
+    if i == 0:
+      group1 += (items[i] + " ")
+    else:
+      group1 += ("*? " + items[i] + " ")
+  group1 += ")"
+  group2 = "(.*?$)"
+  regex_str = group1 + group2
+  # print("regex_str:", regex_str)
+  found = re.search(regex_str, where, re.I)
+  if found:
+    # print("group(1) : ", found.group(1))
+    # print("group(2) : ", found.group(2))
+    retWert = found.group(2)
+  else:
+    retWert = "_nix_"
+    # print("nothing found!")
+  return(retWert)
+  
+
+# prepare the cut out queryterm from raw_data
+def prep_cutout_queryterm(items):
+  retList = []    
+  for i in range(7, len(items)):
+    # items[1] := queryterm e.g. 'Jan van Aken' aus raw_data
+    retWert = cutout_queryterm(items[i], items[1])
+    if retWert != "_nix_":
+      retList.append(retWert)
+  return(retList)
+
+print()
+
+
+def do_the_line(nettoLine):
+  # get line string till first group of raw_data incl. (i.e. till first ']')
+  # TODO: besser ist nur einmaliges Finden statt Liste zurückgeben!!!
+  foundall = re.findall(r'^.*?]', nettoLine, re.I)        # type(foundall)=list  
+  foundall_str = "".join(map(str, foundall))              # dismiss '[', ']'
+  # print("foundall_str:\n", foundall_str)
+      
+  # remove meta  chars (e.g. '"')
+  bad_chars = ['"', '[', ']', '\n']  # chars to remove
+  strFiltered = ''.join((filter(lambda i: i not in bad_chars, foundall_str)))
+  # print("fitered raw_data:\n" + strFiltered + "\n")
+
+  # print("head und gefilterte raw-data:")
+  items = strFiltered.split(",")
+  head_data = getHead(items, 0, 7, 1)
+  propList = prep_cutout_queryterm(items)
+  allData = head_data + propList
+  df = pd.DataFrame(allData)
+  df.columns = ["Excerpt"]
+  print("DataFrame:\n", df,"\n")
+  print('-' * 100)
+
+  
+# M A I N
+
+file_to_read = "workAken.csv"
+with open(file_to_read) as fp:
+  line_count = 0
+  for line in fp:
+    line_count += 1
+    nettoLine = line.strip()
+    print("Line{}:\n {}\n".format(line_count, nettoLine))
+    if line_count == 1:
+      head = nettoLine
+      continue
