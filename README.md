@@ -33,5 +33,13 @@ intersannte Libs:
 Genderguesser die vor 4
 gernderize.io grupe 4
 
+
+
+https://support.google.com/websearch/answer/10622781#features_policies&zippy=
+https://support.google.com/websearch/answer/7368877?hl=en#zippy=%2Cautocomplete-policies
+
+https://www.youtube.com/watch?v=tFq6Q_muwG0   ab 37:00   wieso google nur bedinngt für sentiment analyse und bias geeigenet ist. sie versuchen ja aktiv dies zu verhinderen. Also 
+läst sich wenn überhaupt nur auf den Algorthmus schlißen, und nicht auf das User verhalten. da schon so viele filter schichten eingebaut sind.
+
 intersannter daten satz ACLED (Armend conflict and event data)
  
